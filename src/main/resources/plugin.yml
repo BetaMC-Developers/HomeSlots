@@ -1,0 +1,11 @@
+name: HomeSlots
+version: 1.0.0
+main: org.betamc.homeslots.HomeSlotsPlugin
+
+commands:
+  buyhomeslot:
+    description: Buys a new home slot
+    usage: /buyhomeslot
+  homeslots:
+    description: Shows your total home slots
+    usage: /homeslots
