@@ -19,6 +19,10 @@
             <id>johnymuffin-nexus-releases</id>
             <url>https://repository.johnymuffin.com/repository/maven-public</url>
         </repository>
+        <repository>
+            <id>jitpack</id>
+            <url>https://jitpack.io/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -28,11 +32,9 @@
             <version>1.1.10-250328-1731-f67a8e3</version>
         </dependency>
         <dependency>
-            <groupId>me.zavdav</groupId>
+            <groupId>com.github.zcoreplugin</groupId>
             <artifactId>zcore</artifactId>
-            <version>0.22.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/zcore-0.22.0.jar</systemPath>
+            <version>0.23.9</version>
         </dependency>
     </dependencies>
 
